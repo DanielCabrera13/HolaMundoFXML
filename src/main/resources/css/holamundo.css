@@ -1,0 +1,32 @@
+.root {
+	-fx-font-family: serif;
+	-fx-font-size: 16pt;
+	-fx-background-image: url(https://github.com/dam-dad/HolaMundoCSS/raw/master/src/main/resources/images/earth.jpg) ;
+	-fx-background-size: cover;
+	
+}
+
+.text-field {
+	-fx-background-color: yellow, lightgray;
+	-fx-background-radius: 25px;
+	-fx-background-insets: 0px, 1px;
+}
+
+.label {
+	-fx-text-fill: red;
+	-fx-font-size: 16pt;
+	-fx-effect: dropshadow(gaussian, green, 10, 0.2, 0, 7);
+}
+.button {
+	
+}
+
+.pane #saludarButton {
+	-fx-text-fill: red;
+}
+
+#saludoLabel {
+	-fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, blue, green, 50% white);
+	-fx-text-size: 20pt;
+}
+
